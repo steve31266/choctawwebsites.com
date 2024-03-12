@@ -8,7 +8,7 @@ function custom_redirect() {
     if ($requested_url == '/clients/') {
         // Redirect to the new URL with a 301 status code
         header("HTTP/1.1 301 Moved Permanently");
-        header("Location: https://www.mcalesterpoetry.com/current-clients/");
+        header("Location: https://www.choctawwebsites.com/current-clients/");
         exit();
     }
 
@@ -16,7 +16,7 @@ function custom_redirect() {
     if ($requested_url == '/work/') {
         // Redirect to the new URL with a 301 status code
         header("HTTP/1.1 301 Moved Permanently");
-        header("Location: https://www.mcalesterpoetry.com/current-clients/");
+        header("Location: https://www.choctawwebsites.com/current-clients/");
         exit();
     }
 }
